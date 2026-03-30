@@ -1,0 +1,47 @@
+,Category,Experiment,macroF1,Acc,Dim
+0,Main,Baseline (MARBERT),0.7967546227014397,0.8744588744588745,768
+1,Main,Baseline + Manual,0.83821764636736,0.8932178932178932,772
+2,Main,Baseline + Auto,0.8027151491973393,0.8802308802308803,771
+3,Main,Baseline + Source Data,0.7958330707424426,0.8744588744588745,772
+4,Main,Baseline + Source Data + Manual,0.8412994205272156,0.8946608946608947,776
+5,Main,Baseline + Source Data + Auto,0.8113480470624866,0.886002886002886,775
+6,"Ablation: Intent, Dialect & Sarcasm",Ablation: Dialect (IbrahimAmin),0.7890376984126983,0.8686868686868687,774
+7,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Dialect,0.841161839043569,0.8961038961038961,778
+8,"Ablation: Intent, Dialect & Sarcasm",Ablation: Auto + Dialect,0.802142611629881,0.8816738816738817,777
+9,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Auto + Dialect,0.8456535282137855,0.9033189033189033,783
+10,"Ablation: Intent, Dialect & Sarcasm",Ablation: Intent (Bank77) ,0.7847416744475568,0.8672438672438673,845
+11,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Intent,0.8256869415398347,0.8874458874458875,849
+12,"Ablation: Intent, Dialect & Sarcasm",Ablation: Auto + Intent,0.7843898634829158,0.8701298701298701,848
+13,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Auto + Intent,0.8340853375737097,0.8961038961038961,854
+14,"Ablation: Intent, Dialect & Sarcasm",Ablation: Sarcasm (hardiksr),0.7967546227014397,0.8744588744588745,769
+15,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Sarcasm,0.83821764636736,0.8932178932178932,773
+16,"Ablation: Intent, Dialect & Sarcasm",Ablation: Auto + Sarcasm,0.8027151491973393,0.8802308802308803,772
+17,"Ablation: Intent, Dialect & Sarcasm",Ablation: Manual + Auto + Sarcasm,0.846243536594867,0.9033189033189033,778
+18,Ablation: Preprocessing,Ablation: Elongation,0.8009147486128055,0.8773448773448773,769
+19,Ablation: Preprocessing,Ablation: Manual + Elongation,0.8391517269923053,0.8946608946608947,773
+20,Ablation: Preprocessing,Ablation: Auto + Elongation,0.8129195800547585,0.8874458874458875,772
+21,Ablation: Preprocessing,Ablation: Manual + Elongation + Source Data,0.83821764636736,0.8932178932178932,777
+22,Ablation: Preprocessing,Ablation: Auto + Elongation + Source Data,0.8122742105807346,0.886002886002886,776
+23,Ablation: Preprocessing,Ablation: Manual + Auto + Elongation,0.846243536594867,0.9033189033189033,777
+24,Ablation: Preprocessing,Ablation: Manual Clean,0.8464189126300372,0.898989898989899,772
+25,Ablation: Preprocessing,Ablation: Auto Clean,0.8153168117290103,0.8903318903318903,771
+26,Ablation: Preprocessing,Ablation: Manual Clean + Elongation,0.8450889613467454,0.9004329004329005,773
+27,Ablation: Preprocessing,Ablation: Auto Clean + Elongation,0.8208460509565018,0.8932178932178932,772
+28,Ablation: Pragmatics,Ablation: Manual Clean + Pragmatic,0.8476039860821686,0.9018759018759018,779
+29,Ablation: Pragmatics,Ablation: Auto Clean + Pragmatic,0.819083496559266,0.8932178932178932,778
+30,Ablation: Pragmatics,Ablation: Manual Clean + Elongation + Pragmatic + Elongation,0.8436729653218075,0.9004329004329005,780
+31,Ablation: Pragmatics,Ablation: Auto Clean + Elongation + Pragmatic + Elongation,0.8199422715267493,0.8932178932178932,779
+32,Ablation: All,Ablation: Manual Clean + Elongation + Sarcasm,0.8450889613467454,0.9004329004329005,774
+33,Ablation: All,Ablation: Manual Clean + Elongation + Sarcasm + Dialect,0.8450889613467454,0.9004329004329005,780
+34,Ablation: All,Ablation: Manual Clean + Elongation + Sarcasm + Dialect + Intent,0.827788802643735,0.8903318903318903,857
+35,Ablation: All,Ablation: Manual Clean + Elongation + Pragmatic + Sarcasm,0.8436729653218075,0.9004329004329005,781
+36,Ablation: All,Ablation: Manual Clean + Elongation + Pragmatic + Sarcasm + Dialect,0.8517209611630213,0.9047619047619048,787
+37,Ablation: All,Ablation: Manual Clean + Elongation + Pragmatic + Sarcasm + Dialect + Intent,0.8320100524082713,0.8917748917748918,863
+38,Ablation: All,Ablation: Manual Clean + Elongation + Pragmatic + Sarcasm + Dialect + Intent + Source Data,0.8396531775566949,0.8961038961038961,867
+39,Ablation: All,Ablation: Manual + Sarcasm,0.83821764636736,0.8932178932178932,773
+40,Ablation: All,Ablation: Manual + Sarcasm + Dialect,0.8396853121547313,0.8946608946608947,779
+41,Ablation: All,Ablation: Manual  Sarcasm + Dialect + Intent,0.8280898350584761,0.8888888888888888,856
+42,Ablation: All,Ablation: Manual + Pragmatic + Sarcasm,0.8367587195178071,0.8917748917748918,779
+43,Ablation: All,Ablation: Manual + Pragmatic + Sarcasm + Dialect,0.8396853121547313,0.8946608946608947,785
+44,Ablation: All,Ablation: Manual + Pragmatic + Sarcasm + Dialect + Intent,0.8243353379508661,0.8845598845598845,862
+45,Ablation: All,Ablation: Manual + Pragmatic + Sarcasm + Dialect + Intent + Source Data,0.8298294060906711,0.8888888888888888,866
