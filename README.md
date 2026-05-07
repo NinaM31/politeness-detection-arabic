@@ -77,7 +77,7 @@ The final system applies:
   <img align="right" width="329" alt="Label distribution" src="https://github.com/user-attachments/assets/2535f3a7-9140-4dc3-be76-dc5e4ecefc5a" />
 </p>
 
-The official ADAB dataset split contains 4,895 training instances, 693 validation instances,
+The [ADAB dataset](https://github.com/iwan-rg/ADAB-Arabic-Politeness-Dataset) in AdabEval2026 contains 4,895 training instances, 693 validation instances,
 and 1,406 test instances. The label distribution is highly imbalanced.
 
 #### Dataset splits
